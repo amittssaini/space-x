@@ -47,13 +47,14 @@ function App() {
       <p><strong>Rocket Name:</strong> {latestLaunch['Rocket Name'] || '...Loading'}</p>
       <p><strong>LaunchPad Name:</strong> {latestLaunch['LaunchPad Name']|| '...Loading'}</p>
       </div>
-            <div className='launch-card'>
+      </div>
+            <div >
               <h2>Total Past Launches </h2>
               <p> <strong>Total No. of launches in the past </strong>
               {totalPastLaunches!==0?totalPastLaunches:'...Loading'}
               </p>
             </div>
-      </div>
+      
     </div>
   );
 }
